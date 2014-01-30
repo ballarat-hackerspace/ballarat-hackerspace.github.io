@@ -1,0 +1,8 @@
+---
+layout: default
+title: You've strayed from the well worn path
+---
+
+## {{ page.title }}
+
+Page not found.

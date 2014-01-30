@@ -3,9 +3,17 @@ blurb: The Ballarat Hackerspace
 copyright: Ballarat Hackerspace
 markdown: redcarpet
 pygments: true
-mainurl: http://bhack.in/
-abouturl: /hello/
+siteurl: http://bhack.in/
+emailaddress: hello@bhack.in
 communityurl: https://plus.google.com/communities/106879016585907671427
+
+navlinks:
+  - text: About Us
+    url: /hello/
+  - text: Projects
+    url: /projects/
+  - text: Contact Us
+    url: /contact/
 
 links:
   - text: <i class="fa fa-google-plus"></i> Community

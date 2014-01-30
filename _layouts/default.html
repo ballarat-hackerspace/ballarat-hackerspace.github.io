@@ -21,7 +21,7 @@
     <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
       <div class="container">
         <div class="navbar-header">
-          <a class="navbar-brand" href="{{ site.mainurl }}">Home</a>
+          <a class="navbar-brand" href="{{ site.siteurl }}">Home</a>
           <button class="navbar-toggle" data-target=".navbar-collapse" data-toggle="collapse" type="button">
             <span class="sr-only">Toggle navigation</span>
             <span class="icon-bar"></span>
@@ -31,7 +31,9 @@
         </div>
         <div class="navbar-collapse collapse">
           <ul class="nav navbar-nav">
-            <li {% if page.url contains site.abouturl" %}class="active"{% endif %}><a href="{{ site.abouturl }}">About Us</a></li>
+            {% for nav in site.navlinks %}
+              <li {% if page.url contains nav.url %}class="active"{% endif %}><a href="{{ nav.url }}">{{ nav.text }}</a></li>
+            {% endfor %}
           </ul>
         </div>
       </div>

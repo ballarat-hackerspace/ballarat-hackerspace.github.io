@@ -3,7 +3,7 @@ layout: default
 title: About the Ballarat Hackerspace
 ---
 
-### <i class="fa fa-question-circle"></i> <i class="fa fa-angle-right"></i> What is the Ballarat hackerspace?
+## <i class="fa fa-question-circle"></i> <i class="fa fa-angle-right"></i> What is the Ballarat hackerspace?
 
 The Ballarat hackerspace is a community group for anyone to bring in any
 projects they are working on as a hobby, to help others or to find ways to
@@ -16,7 +16,7 @@ about and share.
 If you have any questions then please [join our community]({{ site.communityurl }})
 on Google+ and then ask away.
 
-### <i class="fa fa-info-circle"></i> <i class="fa fa-angle-right"></i> More Information
+## <i class="fa fa-info-circle"></i> <i class="fa fa-angle-right"></i> More Information
 
 Please visit and [join our Google+ community]({{ site.communityurl }})
 for more information and for details of our meetings.
