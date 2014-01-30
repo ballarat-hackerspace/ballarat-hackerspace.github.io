@@ -5,6 +5,7 @@ markdown: redcarpet
 pygments: true
 mainurl: http://bhack.in/
 abouturl: /hello/
+communityurl: https://plus.google.com/communities/106879016585907671427
 
 links:
   - text: <i class="fa fa-google-plus"></i> Community
