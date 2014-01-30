@@ -1,0 +1,15 @@
+name: bhack.in
+blurb: The Ballarat Hackerspace
+copyright: Ballarat Hackerspace
+markdown: redcarpet
+pygments: true
+mainurl: http://bhack.in/
+abouturl: /hello/
+
+links:
+  - text: <i class="fa fa-google-plus"></i> Community
+    url: https://plus.google.com/communities/106879016585907671427
+  - text: <i class='fa fa-github'></i> GitHub
+    url: https://github.com/ballarat-hackerspace/
+  - text: <i class="fa fa-asterisk"></i> Wiki
+    url: https://github.com/ballarat-hackerspace/ballarat-hackerspace.github.io/wiki
