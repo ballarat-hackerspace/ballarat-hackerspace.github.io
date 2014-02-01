@@ -43,7 +43,7 @@
         </div>
         <div class="navbar-collapse collapse">
           <ul class="nav navbar-nav">
-            {% for nav in site.navlinks %}
+            {% for nav in site.data.navlinks %}
               <li {% if page.url contains nav.url %}class="active"{% endif %}><a href="{{ nav.url }}">{{ nav.text }}</a></li>
             {% endfor %}
           </ul>
@@ -67,14 +67,14 @@
         <div class="col-md-4">
           <h4>Links</h4>
           <ul class="list-unstyled">
-            {% for link in site.links %}
+            {% for link in site.data.links %}
               <li><a href="{{ link.url }}">{{ link.text }}</a></li>
             {% endfor %}
           </ul>
 
           <h4>Sites</h4>
           <ul class="list-unstyled">
-            {% for link in site.external_links %}
+            {% for link in site.data.external_links %}
               <li><a href="{{ link.url }}">{{ link.text }}</a></li>
             {% endfor %}
           </ul>
@@ -84,7 +84,8 @@
       <hr>
 
       <footer>
-        <p>&copy; {{ site.copyright }}, {{ site.time | date: '%Y' }}.</p>
+        <p>&copy; {{ site.copyright }}, {{ site.time | date: '%Y' }}<br/>
+        <a href="http://pages.github.com" title="Powered by GitHub"><i class="fa fa-github fa-2x"></i></a></p>
         <!-- {{ page.url }} -->
       </footer>
     </div> <!-- /container -->

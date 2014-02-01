@@ -4,7 +4,7 @@ title:      "Example Project"
 date:       2014-01-30 09:35:29
 categories: project
 tags:       [ beaglebone black, nodejs, arduino, raspberry pi, breadboard ]
-author:     Scott Weston
+author:     scott
 ---
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam a orci quis dui

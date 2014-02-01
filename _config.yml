@@ -6,31 +6,3 @@ pygments: true
 siteurl: http://bhack.in/
 emailaddress: hello@bhack.in
 communityurl: https://plus.google.com/communities/106879016585907671427
-
-navlinks:
-  - text: About Us
-    url: /hello/
-  - text: Projects
-    url: /projects/
-  - text: Contact Us
-    url: /contact/
-
-links:
-  - text: <i class="fa fa-google-plus"></i> Community
-    url: https://plus.google.com/communities/106879016585907671427
-  - text: <i class='fa fa-github'></i> GitHub
-    url: https://github.com/ballarat-hackerspace/
-  - text: <i class="fa fa-list-alt"></i> Wiki
-    url: https://github.com/ballarat-hackerspace/ballarat-hackerspace.github.io/wiki
-
-external_links:
-  - text: <i class="fa fa-heart-o"></i> Ballarat Arts Alive
-    url: http://baa.mx/
-  - text: <i class="fa fa-heart-o"></i> Ballarat Colab
-    url: http://ballaratcolab.com.au/
-  - text: <i class="fa fa-heart-o"></i> Ballarat East Community Men's Shed
-    url: http://www.becs.shed.org.au/
-  - text: <i class="fa fa-heart-o"></i> City of Ballarat
-    url: http://www.ballarat.vic.gov.au/
-  - text: <i class="fa fa-heart-o"></i> r/ballarat
-    url: http://reddit.com/r/ballarat
