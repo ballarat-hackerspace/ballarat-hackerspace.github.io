@@ -1,3 +1,5 @@
+# gravatar is the md5 of your chosen gravatar email address
+
 brett:
   name: Brett James
   googleplus: 118360027485373080344
@@ -15,9 +17,9 @@ scott:
   github: scottweston
   googleplus: +ScottWeston
   twitter: sctwstn
-  gravatar: scottw@gmail.com
+  gravatar: 4248419c0e9277c35f54f8a093df19ab
 
 stuart:
   name: Stuart Clark
-  gravatar: stu@rtclark.net
+  gravatar: 499831a65f45885a7e1b70ea47c06a58
   googleplus: +StuartClark83

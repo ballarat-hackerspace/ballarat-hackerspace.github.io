@@ -11,7 +11,7 @@ title: Members
       {% for member in site.data.members %}
       <tr>
         <td rowspan="2" width="128">
-          <img class="pull-left gravatar" src="{{ member[1].gravatar | to_gravatar }}?s=128&d=mm" /></p>
+          <img class="pull-left gravatar" src="http://www.gravatar.com/avatar/{{ member[1].gravatar }}?s=128&d=mm" /></p>
         </td>
         <td>
           <h3>{{ member[1].name }}</h3>
