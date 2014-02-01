@@ -20,11 +20,12 @@ title: Members
       <tr>
         <td>
           <p>
-      {% if member[1].homepage %}<a href="{{ member[1].homepage }}"><i class="fa fa-home fa-2x"></i></a></li>{% endif %}
-      {% if member[1].github %}<a href="http://github.com/{{ member[1].github }}"><i class="fa fa-github fa-2x"></i></a></li>{% endif %}
-      {% if member[1].googleplus %}<a href="http://plus.google.com/{{ member[1].googleplus }}"><i class="fa fa-google-plus-square fa-2x"></i></a></li>{% endif %}
-      {% if member[1].twitter %}<a href="http://twitter.com/{{ member[1].twitter }}"><i class="fa fa-twitter fa-2x"></i></a></li>{% endif %}
-      {% if member[1].facebook %}<a href="http://facebook.com/{{ member[1].facebook }}"><i class="fa fa-facebook fa-2x"></i></a></li>{% endif %}
+      {% if member[1].homepage %}<a href="{{ member[1].homepage }}" title="homepage"><i class="fa fa-h-square fa-2x"></i></a></li>{% endif %}
+      {% if member[1].github %}<a href="http://github.com/{{ member[1].github }}" title="GitHub"><i class="fa fa-github-square fa-2x"></i></a></li>{% endif %}
+      {% if member[1].googleplus %}<a href="http://plus.google.com/{{ member[1].googleplus }}" title="Google+"><i class="fa fa-google-plus-square fa-2x"></i></a></li>{% endif %}
+      {% if member[1].twitter %}<a href="http://twitter.com/{{ member[1].twitter }}" title="Twitter"><i class="fa fa-twitter-square fa-2x"></i></a></li>{% endif %}
+      {% if member[1].facebook %}<a href="http://facebook.com/{{ member[1].facebook }}" title="Facebook"><i class="fa fa-facebook-square fa-2x"></i></a></li>{% endif %}
+      {% if member[1].linkedin %}<a href="http://www.linkedin.com/in/{{ member[1].linkedin }}" title="Linkedin"><i class="fa fa-linkedin-square fa-2x"></i></a></li>{% endif %}
           </p>
         </td>
       </tr>

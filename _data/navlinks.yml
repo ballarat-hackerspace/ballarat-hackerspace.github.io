@@ -1,8 +1,10 @@
-- text: About Us
+- text: <i class="fa fa-question-circle"></i> About
   url: /hello/
-- text: Projects
+- text: <i class="fa fa-gears"></i> Projects
   url: /projects/
-- text: Members
+- text: <i class="fa fa-users"></i> Members
   url: /members/
-- text: Contact Us
+- text: <i class="fa fa-phone-square"></i> Contact
   url: /contact/
+- text: <i class="fa fa-file-o"></i> Source
+  url: https://github.com/ballarat-hackerspace/ballarat-hackerspace.github.io
