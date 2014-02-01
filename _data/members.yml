@@ -1,4 +1,5 @@
 # gravatar is the md5 of your chosen gravatar email address
+#   e.g.: echo -n "my@email.address" | md5sum | awk '{print $1}'
 
 brett:
   name: Brett James
