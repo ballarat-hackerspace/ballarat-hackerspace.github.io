@@ -10,7 +10,10 @@ brett:
 
 ian:
   name: Ian Firns
-  googleplus: 115407642708262939101
+  homepage: http://firnsy.com
+  github: firnsy
+  googleplus: +IanFirns
+  gravatar: a458fbf0e1b0374e7aa622e16d6f5ed1
 
 scott:
   name: Scott Weston
