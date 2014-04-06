@@ -1,0 +1,17 @@
+---
+layout: default
+title: bHack.in pages
+---
+
+## <i class="fa fa-heart"></i> <i class="fa fa-angle-right"></i> {{ page.title }}
+
+We currently have the following pages available:
+
+* Our [Blog](/blog/)
+* Our [Members](/members/) directory
+
+Eventually these will be migrated to our [main website](http://bhack.in) as we further develop it.
+
+## <i class="fa fa-comments"></i> <i class="fa fa-angle-right"></i> IRC
+
+* irc://freenode.net/#bhack

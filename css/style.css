@@ -2,3 +2,5 @@ body { font-weight: 100; }
 footer { text-align: right; }
 .jumbotron { margin-top: 50px; background-image: url(/images/bg.jpg); background-size: 150%; background-repeat: no-repeat; }
 .gravatar { padding-right: 5px; }
+h1 { font-weight: 100; }
+.date { padding-bottom: 12px; }

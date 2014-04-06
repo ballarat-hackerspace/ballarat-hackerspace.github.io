@@ -1,14 +1,12 @@
 ---
 layout: default
 ---
-<h3>{{ page.title }}</h3>
-
-<p><small><i class="fa fa-calendar"></i> {{ page.date | date_to_string }}<br/><i class="fa fa-user"></i> {{ site.data.members[page.author].name }}<br/><i class="fa fa-tags"></i>
-  {% for tag in page.tags %}
-    <u>{{ tag }}</u>
-  {% endfor %}
-</small></p>
 
 <div class="post">
-{{ content }}
+  <div class="title"><h3><a href="/blog/">Blog</a> <i class="fa fa-angle-double-right"></i> {{ page.title }}</h3></div>
+  <div class="date"><small><i class="fa fa-calendar"></i> {{ page.date | date_to_string }}</small></div>
+  <div class="post">
+    {{ content }}
+  </div>
 </div>
+

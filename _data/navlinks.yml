@@ -1,10 +1,10 @@
 - text: <i class="fa fa-question-circle"></i> About
-  url: /hello/
-- text: <i class="fa fa-gears"></i> Projects
-  url: /projects/
+  url: http://bhack.in/#about
+- text: <i class="fa fa-info-circle"></i> What
+  url: http://bhack.in/#what
+- text: <i class="fa fa-map-marker"></i> Where
+  url: http://bhack.in/#where
 - text: <i class="fa fa-users"></i> Members
   url: /members/
-- text: <i class="fa fa-phone-square"></i> Contact
-  url: /contact/
 - text: <i class="fa fa-file-o"></i> Source
   url: https://github.com/ballarat-hackerspace/ballarat-hackerspace.github.io
