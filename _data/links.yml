@@ -1,8 +1,10 @@
 - text: <i class="fa fa-home"></i> Main Website
   url: http://bhack.in/
+- text: <i class="fa fa-globe"></i> Blog
+  url: http://bhack.in/blog
 - text: <i class="fa fa-google-plus"></i> Community
-  url: https://plus.google.com/communities/106879016585907671427
+  url: http://plus.bhack.in
 - text: <i class='fa fa-github'></i> GitHub
   url: https://github.com/ballarat-hackerspace/
 - text: <i class="fa fa-list-alt"></i> Wiki
-  url: https://github.com/ballarat-hackerspace/ballarat-hackerspace.github.io/wiki
+  url: https://github.com/ballarat-hackerspace/association/wiki

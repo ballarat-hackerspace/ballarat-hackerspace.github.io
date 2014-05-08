@@ -4,6 +4,8 @@
   url: http://bhack.in/#what
 - text: <i class="fa fa-map-marker"></i> Where
   url: http://bhack.in/#where
+- text: <i class="fa fa-globe"></i> Blog
+  url: http://bhack.in/blog
 - text: <i class="fa fa-users"></i> Members
   url: /members/
 - text: <i class="fa fa-file-o"></i> Source

@@ -7,7 +7,6 @@ title: bHack.in pages
 
 We currently have the following pages available:
 
-* Our [Blog](/blog/)
 * Our [Members](/members/) directory
 
 Eventually these will be migrated to our [main website](http://bhack.in) as we further develop it.
