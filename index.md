@@ -5,11 +5,9 @@ title: bHack.in pages
 
 ## <i class="fa fa-heart"></i> <i class="fa fa-angle-right"></i> {{ page.title }}
 
-We currently have the following pages available:
+Please use our main site:
 
-* Our [Members](/members/) directory
-
-Eventually these will be migrated to our [main website](http://bhack.in) as we further develop it.
+* [http://bhack.in](http://bhack.in)
 
 ## <i class="fa fa-comments"></i> <i class="fa fa-angle-right"></i> IRC
 

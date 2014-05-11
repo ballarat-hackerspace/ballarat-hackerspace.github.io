@@ -7,6 +7,6 @@
 - text: <i class="fa fa-globe"></i> Blog
   url: http://bhack.in/blog
 - text: <i class="fa fa-users"></i> Members
-  url: /members/
+  url: http://bhack.in/members
 - text: <i class="fa fa-file-o"></i> Source
   url: https://github.com/ballarat-hackerspace/ballarat-hackerspace.github.io

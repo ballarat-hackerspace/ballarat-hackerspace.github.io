@@ -2,7 +2,7 @@ name: HACK.<strong>CODE</strong>.<wbr>VOID.<strong>MAKE</strong>
 blurb: A <strong>Ballarat</strong> Hackerspace
 copyright: Ballarat Hackerspace
 markdown: redcarpet
-pygments: true
+highlighter: pygments
 siteurl: http://bhack.in
 emailaddress: hello@bhack.in
 communityurl: http://plus.bhack.in
