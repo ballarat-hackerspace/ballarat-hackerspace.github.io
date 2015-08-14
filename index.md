@@ -1,12 +1,11 @@
 ---
 layout: default
 title: Ballarat Hackerspace GitHub Pages
-redirect: https://ballarathackerspace.org.au
 ---
 
 ## <i class="fa fa-heart"></i> <i class="fa fa-angle-right"></i> {{ page.title }}
 
-Please use our main site:
+Please visit our main site for further information about the Ballarat Hackerspace:
 
 * [Ballarat Hackerspace](https://ballarathackerspace.org.au)
 
