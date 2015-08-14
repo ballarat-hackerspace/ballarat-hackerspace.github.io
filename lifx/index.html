@@ -7,14 +7,18 @@
     <script src="//code.jquery.com/jquery-1.11.3.min.js"></script>
     <script src='spectrum.js'></script>
     <link rel='stylesheet' href='spectrum.css' />
+    <title>control our lights</title>
   </head>
 
   <body>
+    <h1>control our lights</h1>
+    <p>Dial up a colour and click <i>change lights</i>.</p>
     <input type='text' id="flat" />
     <script>
       var colour;
       $("#flat").spectrum({
         flat: true,
+        chooseText: "change lights",
         allowEmpty: true,
         showInput: true,
         change: function(c) {
