@@ -1,8 +1,8 @@
-name: HACK.<strong>CODE</strong>.<wbr>VOID.<strong>MAKE</strong>
-blurb: A <strong>Ballarat</strong> Hackerspace
+name: <strong>ballarat</strong>hackerspace
+blurb: The <strong>Ballarat</strong> Hackerspace
 copyright: Ballarat Hackerspace
 markdown: redcarpet
 highlighter: pygments
-siteurl: http://bhack.in
-emailaddress: hello@bhack.in
+siteurl: https://ballarathackerspace.org.au
+emailaddress: hello@ballarathackerspace.org.au
 communityurl: http://plus.bhack.in
