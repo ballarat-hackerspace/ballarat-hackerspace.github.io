@@ -45,7 +45,7 @@
 
       function getColour() {
         $.ajax(
-        { url: "http://192.168.1.50:5439/colour",
+        { url: "https://ballarathackerspace.org.au/lifx/colour",
           success: function(data) {
             data['v'] = data['b'];
             delete data['b'];
