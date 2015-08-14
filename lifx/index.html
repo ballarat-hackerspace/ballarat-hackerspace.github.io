@@ -1,0 +1,36 @@
+<html>
+  <head>
+    <script src="//code.jquery.com/jquery-1.11.3.min.js"></script>
+    <script src='spectrum.js'></script>
+    <link rel='stylesheet' href='spectrum.css' />
+  </head>
+
+  <body>
+    <input type='text' id="flat" />
+    <script>
+      var colour;
+      $("#flat").spectrum({
+        flat: true,
+        allowEmpty: true,
+        showInput: true,
+        change: function(c) {
+          if (c) {
+            colour = c.toHsv();
+            colour['k'] = 3500;
+            colour['d'] = 10;
+            colour['b'] = colour['v'];
+            var cstr = JSON.stringify(colour);
+            $.ajax(
+            { url: "https://ballarathackerspace.org.au/lifx/hsbk",                                         
+              data: "colour="+cstr,
+              type: "POST",
+              success: function(r) {
+                console.log(r);
+              }
+            });
+          }
+        }
+      });
+    </script>
+  </body>
+</html>
