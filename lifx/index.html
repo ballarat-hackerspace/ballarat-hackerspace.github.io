@@ -21,6 +21,7 @@
         chooseText: "change lights",
         allowEmpty: true,
         showInput: true,
+        clickoutFiresChange: false,
         change: function(c) {
           if (c) {
             colour = c.toHsv();
@@ -39,6 +40,21 @@
           }
         }
       });
+
+      setTimeout(getColour, 500);
+
+      function getColour() {
+        $.ajax(
+        { url: "http://192.168.1.50:5439/colour",
+          success: function(data) {
+            data['v'] = data['b'];
+            delete data['b'];
+            delete data['k'];
+            console.log("current color: " + JSON.stringify(data));
+            $("#flat").spectrum("set", data);
+          }
+        });
+      }
     </script>
   </body>
 </html>
