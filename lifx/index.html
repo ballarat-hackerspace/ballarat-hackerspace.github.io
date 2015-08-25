@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html xmlns=http://www.w3.org/1999/xhtml xml:lang=en lang=en-us>
+  <head>
+    <link href=http://gmpg.org/xfn/11 rel=profile>
+    <meta http-equiv=content-type content="text/html; charset=utf-8">
+    <meta name=viewport content="width=device-width, initial-scale=1.0, maximum-scale=1, user-scalable=no">
+    <link href='//fonts.googleapis.com/css?family=Open+Sans:400,700,300' rel='stylesheet' type='text/css'>
+    <script src="//code.jquery.com/jquery-1.11.3.min.js"></script>
+    <title>Control our lights</title>
+    <style>
+      * { font-family: 'Open Sans', sans-serif; }
+      h1 { font-weight: 700; text-transform: uppercase; }
+      p { font-weight: 300; }
+    </style>
+  </head>
+
+  <body>
+    <h1>Control our lights</h1>
+    <p>Pick a colour to <i>change our lights</i>. Once you click the lights will begin to change
+    and will take 30 seconds to fully change.</p>
+    
+    <input type='button' value='RED' onChange="changeColour(0);">
+    <input type='button' value='YELLOW' onChange="changeColour(64);">
+    <input type='button' value='GREEN' onChange="changeColour(128);">
+    <input type='button' value='CYAN' onChange="changeColour(196);">
+    <input type='button' value='BLUE' onChange="changeColour(240);">
+    <input type='button' value='PURPLE' onChange="changeColour(300);">
+    
+    <script>
+      function changeColour(hue) {
+        cstr='{ "hue": ' + hue + ' }';
+        $.ajax(
+          { url: "https://ballarathackerspace.org.au/lifx/change",
+            data: "colour="+cstr,
+            type: "POST",
+            success: function(r) {
+              console.log(r);
+            }
+          }
+        );
+      }
+    </script>
+  </body>
+</html>
