@@ -12,8 +12,8 @@
       body { margin:0; padding:0 };
       h1 { font-weight: 700; text-transform: uppercase; }
       p { font-weight: 300; }
-      #logo { width: 25%; float: right; }
-      #header { text: rgb(255, 255, 255); background: rgb(0,0,0); padding: 50px 15px 50px 15px;}
+      #logo { width: 33%; float: right; }
+      #header { color: rgb(255, 255, 255); background: rgb(0,0,0); padding: 50px 15px 50px 15px;}
     </style>
   </head>
 
@@ -26,12 +26,14 @@
     <p>Pick a colour to <i>change our lights</i>. Once you click the lights will begin to change
     and will take 30 seconds to fully change.</p>
     
+    <center>
     <input type='button' value='RED' onClick="changeColour(0);">
     <input type='button' value='YELLOW' onClick="changeColour(64);">
     <input type='button' value='GREEN' onClick="changeColour(128);">
     <input type='button' value='CYAN' onClick="changeColour(196);">
     <input type='button' value='BLUE' onClick="changeColour(240);">
     <input type='button' value='PURPLE' onClick="changeColour(300);">
+    </center>
     
     <script>
       function changeColour(hue) {
