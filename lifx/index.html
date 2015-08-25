@@ -16,6 +16,7 @@
       input[type="button"] { margin: 2px; font-size: 22pt; font-weight: 700; }
       #header { color: white; background: #00a2dd; padding: 50px 15px 50px 15px;}
       #footer { color: rgb(255, 255, 255); background: #00a2dd; padding: 10px 15px 10px 15px; margin-top: 25px; text-align: right; }
+      #webcam { width: 90%; transform: rotate(180deg); -moz-transform: rotate(180deg); -webkit-transform: rotate(180deg); -o-transform:rotate(180deg); -ms-transform:rotate(180deg); }
     </style>
   </head>
 
@@ -41,6 +42,8 @@
     <p>If you find this sort of thing interesting you should think about
     <a href="https://ballarathackerspace.org.au/join">joining your local Hackerspace</a> :)</p>
     
+    <center><img id="webcam" src="https://ballarathackerspace.org.au/webcam.jpg"></center>
+    
     <div id="footer">
       <img id="logo" src="http://sensors.ballarathackerspace.org.au/app/hackerspace-white.png">
     </div>
@@ -58,6 +61,8 @@
           }
         );
       }
+      
+      setInterval(function() { $("#webcam").attr("src", "https://ballarathackerspace.org.au/webcam.jpg?"+new Date().getTime()); }, 15000);
     </script>
   </body>
 </html>
