@@ -12,14 +12,14 @@
       body { margin:0; padding:0 };
       h1 { font-weight: 700; text-transform: uppercase; }
       p { font-weight: 300; font-size: 18pt; padding: 5px 30px 5px 30px;}
-      #logo { width: 33%; float: right; }
+      #logo { float: right; }
       #header { color: rgb(255, 255, 255); background: rgb(0,0,0); padding: 50px 15px 50px 15px;}
+      #footer { color: rgb(255, 255, 255); background: rgb(0,0,0); padding: 50px 15px 50px 15px;}
     </style>
   </head>
 
   <body>
     <div id="header">
-      <img id="logo" src="http://sensors.ballarathackerspace.org.au/app/hackerspace-white.png">
       <h1>Control our lights</h1>
     </div>
     
@@ -34,6 +34,10 @@
     <input type='button' value='BLUE' onClick="changeColour(240);">
     <input type='button' value='PURPLE' onClick="changeColour(300);">
     </center>
+    
+    <div id="footer">
+      <img id="logo" src="http://sensors.ballarathackerspace.org.au/app/hackerspace-white.png">
+    </div>
     
     <script>
       function changeColour(hue) {
