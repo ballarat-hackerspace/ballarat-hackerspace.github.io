@@ -12,3 +12,8 @@ Please visit our main site for further information about the Ballarat Hackerspac
 ## <i class="fa fa-comments"></i> <i class="fa fa-angle-right"></i> IRC
 
 * irc://freenode.net/#bhack
+
+## <i class="fa fa-gears"></i> <i class="fa fa-angle-right"></i> Control Our Stuff
+
+* [LED Strip](/leds/)
+* [Lights](/lifx/)
