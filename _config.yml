@@ -1,8 +1,8 @@
 name: <strong>ballarat</strong>hackerspace
 blurb: The <strong>Ballarat</strong> Hackerspace
 copyright: Ballarat Hackerspace
-markdown: redcarpet
-highlighter: pygments
+markdown: kramdown
+highlighter: rouge
 siteurl: https://ballarathackerspace.org.au
 emailaddress: hello@ballarathackerspace.org.au
 communityurl: http://plus.bhack.in
